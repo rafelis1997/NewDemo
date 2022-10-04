@@ -83,7 +83,7 @@ export function Instructions() {
             
             <Link to="/ar" className="absolute bottom-20 w-7/12 m-4">
                 <span 
-                  className="font-bold text-xl text-slate-50 flex justify-center items-center py-4 px-8 rounded-md bg-[#00B37E]"
+                  className="font-bold text-xl text-slate-50 flex justify-center items-center py-4 px-8 rounded-md bg-[#6e5dcf]"
                 >Let's Go!</span>
               </Link>
           </div>
