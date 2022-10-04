@@ -71,7 +71,7 @@ export function Instructions() {
             </svg>
             </div>
             <span className='max-w-xs text-3xl text-center text-[#263238] font-extrabold'>
-              Point you phone camera that 
+              Point you phone camera to that 
               <span 
                 className='max-w-xs text-3xl text-center text-[#6e5dcf] font-black'
               > image</span>
