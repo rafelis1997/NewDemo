@@ -68,7 +68,7 @@ export default () => {
           </div>
         </div>
       </div>
-      <h3 className="absolute bottom-[50px] font-bold text-xl z-20 text-white">
+      <h3 className="absolute bottom-[80px] font-bold text-xl z-20 text-white">
         Developed by <span>Rafael Almeida</span>
       </h3>     
     </div>
