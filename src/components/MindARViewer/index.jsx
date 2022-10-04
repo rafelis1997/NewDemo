@@ -34,7 +34,7 @@ export default () => {
   return (
     <div className='w-full h-full overflow-hidden relative flex justify-center align-middle'>
         <a-scene 
-        mindar-image="imageTargetSrc: ./src/assets/targets.mind; filterMinCF:0.0001; filterBeta: 0.0100; autoStart: false; uiLoading: no; uiError: yes; uiScanning: #scanUi;" 
+        mindar-image="imageTargetSrc: ../../targets.mind; filterMinCF:0.0001; filterBeta: 0.0100; autoStart: false; uiLoading: no; uiError: yes; uiScanning: #scanUi;" 
         color-space="sRGB" 
         embedded renderer="colorManagement: true, physicallyCorrectLights" 
         vr-mode-ui="enabled: false" 
