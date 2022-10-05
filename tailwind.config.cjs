@@ -5,7 +5,9 @@ module.exports = {
     fontFamily: {
       sans: ['Roboto','sans-serif']
     },
-    
+    screens: {
+      mobile: '300px',
+    }
   },
   plugins: [],
 }
