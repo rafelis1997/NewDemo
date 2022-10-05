@@ -15,7 +15,9 @@
     "mind-ar": "github:rafelis1997/mind-ar-js",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.4.1"
+    "react-router-dom": "^6.4.1",
+    "esbuild": "0.14.14",
+    "esbuild-linux-64": "file:./.yarn/esbuild-linux-64"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^2.1.0",
