@@ -9,13 +9,13 @@ export function Home() {
 
       <h1 className="text-3xl text-center">Welcome to this WebAR Demo</h1>
 
-      <Link to="/instructions" className="w-7/12">
-	     <span className="font-bold text-xl text-slate-50 flex justify-center items-center py-4 px-8 rounded-md bg-[#6e5dcf]">Start</span>
+      <Link to="/instructions-image" className="w-7/12">
+	     <span className="font-bold text-xl text-slate-50 flex justify-center items-center py-3 px-7 rounded-md bg-[#6e5dcf]">Image Tracking</span>
       </Link>
 
 
-      <Link to="/world-ar" className="w-7/12">
-	     <span className="font-bold text-xl text-slate-50 flex justify-center items-center py-4 px-8 rounded-md bg-[#6e5dcf]">World Tracking</span>
+      <Link to="/instructions-world" className="w-7/12">
+	     <span className="font-bold text-xl text-slate-50 flex justify-center items-center py-3 px-7 rounded-md bg-[#6e5dcf]">World Tracking</span>
       </Link>
 
       <h3 className="absolute bottom-3 font-bold text-xl">

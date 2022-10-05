@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 import './styles.css';
 
-export function Instructions() {
+export function InstructionsWorld() {
   const [currentSlide, setCurrentSlide] = useState(0)
   const [loaded, setLoaded] = useState(false)
   const [sliderRef, instanceRef] = useKeenSlider({
@@ -45,15 +45,14 @@ export function Instructions() {
           </div>
 
           <div className="keen-slider__slide number-slide2">
+            <span className='max-w-xs text-3xl text-center text-[#263238] font-extrabold'>
+              You can place the model on any horizontal surface
+            </span>
             <div className="svgContainer">
               <img src="https://raw.githubusercontent.com/rafelis1997/rafelis1997/main/193482536-2cc6c466-b52d-4c0d-93ce-6e44d3a6477f.svg" alt=""/>
             </div>
-            <span className='max-w-xs text-3xl text-center text-[#263238] font-extrabold'>
-              Just  
-              <a 
-              href="https://raw.githubusercontent.com/rafelis1997/rafelis1997/main/193482536-2cc6c466-b52d-4c0d-93ce-6e44d3a6477f.svg" target="_blank"
-              className='underline max-w-xs text-3xl text-center text-[#6e5dcf] font-black'> open </a> 
-                this image on another device or print it
+            <span className='max-w-xs text-3xl text-center text-[#6e5dcf] font-black'>
+              Try to position it by dragging, rotate or scale with a pinch move. It's awesome!
             </span>
           </div>
           <div className="keen-slider__slide number-slide3">
@@ -71,17 +70,12 @@ export function Instructions() {
             </svg>
             </div>
             <span className='max-w-xs text-3xl text-center text-[#263238] font-extrabold'>
-              Point you phone camera to that 
-              <span 
-                className='max-w-xs text-3xl text-center text-[#6e5dcf] font-black'
-              > image</span>
-              , and...
               <span 
                 className='max-w-xs text-3xl text-center text-[#6e5dcf] font-black'
               > That's it!</span>
             </span>
             
-            <Link to="/ar" className="absolute bottom-20 w-7/12 m-4">
+            <Link to="/world-ar" className="absolute bottom-20 w-7/12 m-4">
                 <span 
                   className="font-bold text-xl text-slate-50 flex justify-center items-center py-4 px-8 rounded-md bg-[#6e5dcf]"
                 >Let's Go!</span>
