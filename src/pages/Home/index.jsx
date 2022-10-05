@@ -13,6 +13,7 @@ export function Home() {
 	     <span className="font-bold text-xl text-slate-50 flex justify-center items-center py-4 px-8 rounded-md bg-[#6e5dcf]">Start</span>
       </Link>
 
+
       <Link to="/world-ar" className="w-7/12">
 	     <span className="font-bold text-xl text-slate-50 flex justify-center items-center py-4 px-8 rounded-md bg-[#6e5dcf]">World Tracking</span>
       </Link>
