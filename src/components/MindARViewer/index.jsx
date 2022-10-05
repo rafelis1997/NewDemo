@@ -1,7 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import 'aframe';
 import 'aframe-extras';
-import 'aframe-gif-shader';
 import 'mind-ar/dist/mindar-image.prod.js';
 import 'mind-ar/dist/mindar-image-aframe.prod.js';
 
