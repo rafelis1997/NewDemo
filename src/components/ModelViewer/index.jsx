@@ -7,7 +7,8 @@ export function ModelViewer() {
         alt="A model of me"
         shadow-intensity="1"
         camera-controls
-        autoplay 
+        auto-play
+        animation-name="waving"
         auto-rotate 
         ar
       >
