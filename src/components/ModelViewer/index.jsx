@@ -10,7 +10,6 @@ export function ModelViewer() {
         auto-play
         animation-name="waving"
         ar
-        ar-modes="webxr"
         xr-environment
       >
         <button 
