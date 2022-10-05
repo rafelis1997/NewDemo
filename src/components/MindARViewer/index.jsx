@@ -56,7 +56,7 @@ export default () => {
           src="Animado.glb"
           animation-mixer="loop: repeat"
           ></a-gltf-model> */}
-          <a-plane material="shader:gif;src:url(little-cat-ferry.gif)" crossOrigin="anonymous" position="0 0 0" height="0.552" width="1" rotation="0 0 0"></a-plane>
+          <a-plane material="shader:gif;src:url(little-cat-ferry.gif)" crossOrigin="anonymous" position="0 0 0" height="1" width="1" rotation="0 0 0"></a-plane>
         </a-entity>
       </a-scene>
 
