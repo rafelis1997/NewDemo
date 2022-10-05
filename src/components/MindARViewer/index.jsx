@@ -49,14 +49,14 @@ export default () => {
         <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
 
         <a-entity mindar-image-target="targetIndex: 0">
-          <a-gltf-model 
+          {/* <a-gltf-model 
           rotation="0 0 0 " 
           position="0 0 0" 
           scale="0.7 0.7 0.7" 
           src="Animado.glb"
           animation-mixer="loop: repeat"
-          ></a-gltf-model>
-
+          ></a-gltf-model> */}
+          <a-plane src="https://cdn.jsdelivr.net/gh/hiukim/mind-ar-js@1.1.5/examples/image-tracking/assets/card-example/card.png" crossOrigin="anonymous" position="0 0 0" height="0.552" width="1" rotation="0 0 0"></a-plane>
         </a-entity>
       </a-scene>
 
