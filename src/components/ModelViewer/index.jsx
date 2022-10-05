@@ -4,11 +4,12 @@ export function ModelViewer() {
   return (
       <model-viewer 
         src="Animado.glb"
+        ios-src="animadoV2.usdz"
         alt="A model of me"
         shadow-intensity="1"
         camera-controls
         autoplay
-        ar 
+        ar
         ar-modes="webxr scene-viewer quick-look"
       >
         <button 
