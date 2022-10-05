@@ -5,7 +5,7 @@ export function Home() {
 
   return (
     <div className="flex flex-col justify-center items-center w-full h-full gap-8">
-      <img src={ar} width={350}/>
+      <img src={ar} width={350} className="w-[350px] sm:w-[250px] md:w-[300px]"/>
 
       <h1 className="text-3xl text-center">Welcome to this WebAR Demo</h1>
 
