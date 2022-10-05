@@ -1,9 +1,9 @@
-import 'keen-slider/keen-slider.min.css'
-import { useKeenSlider } from 'keen-slider/react'
-import { useState } from 'react'
-import { Link } from 'react-router-dom'
+import 'keen-slider/keen-slider.min.css';
+import { useKeenSlider } from 'keen-slider/react';
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
-import './styles.css'
+import './styles.css';
 
 export function Instructions() {
   const [currentSlide, setCurrentSlide] = useState(0)
