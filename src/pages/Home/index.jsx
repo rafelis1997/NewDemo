@@ -18,7 +18,7 @@ export function Home() {
 	     <span className="font-bold text-xl text-slate-50 flex justify-center items-center py-3 px-7 rounded-md bg-[#6e5dcf]">World Tracking</span>
       </Link>
 
-      <h3 className="absolute bottom-3 font-bold text-xl">
+      <h3 className="absolute bottom-[20px] font-bold text-xl">
         Developed by <span>Rafael Almeida</span>
       </h3>     
     </div>
