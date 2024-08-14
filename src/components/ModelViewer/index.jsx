@@ -4,7 +4,7 @@ export function ModelViewer() {
   return (
       <model-viewer 
         src="Animado.glb"
-        ios-src="model.usdz"
+        ios-src="animadov3.usdz"
         alt="A model of me"
         shadow-intensity="1"
         camera-controls
